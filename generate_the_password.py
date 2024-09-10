@@ -8,6 +8,3 @@ def generate_random_string(length):
     random_string = ''.join(random.choice(all_chars) for _ in range(length))
     return random_string
 
-# Generate a random string of length 8
-random_text = generate_random_string(8)
-print(f"Random text: {random_text}")
